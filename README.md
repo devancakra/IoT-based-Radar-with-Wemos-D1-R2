@@ -152,24 +152,37 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 ## Highlights
 <table>
 <tr>
-<th width="280"></th>
-<th width="280"></th>
-<th width="280"></th>
+<th width="840" colspan="2">Hardware Preview</th>
 </tr>
 <tr>
-<td><img src="" alt="IMG-1"></td>
-<td><img src="" alt="IMG-2"></td>
-<td><img src="" alt="IMG-3"></td>
+<td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/18988ba4-3c72-45c8-9b62-58bffa497921" alt="IMG-1"></td>
+<td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/dd84d910-2cb5-4e75-99cd-1c362e8c7475" alt="IMG-2"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840" colspan="2">MQTT Explorer (JSON data on Topic)</th>
 </tr>
 <tr>
-<th width="280"></th>
-<th width="280"></th>
-<th width="280"></th>
+<td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/37031059-3957-40a9-a5d2-7e38a6d59037" alt="IMG-3"></td>
+<td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/fd90dd5e-9056-4480-8bf9-2177f8778d1f" alt="IMG-4"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840" colspan="2">Serial Monitor (Publish & Subscribe)</th>
 </tr>
 <tr>
-<td><img src="" alt="IMG-4"></td>
-<td><img src="" alt="IMG-5"></td>
-<td><img src="" alt="IMG-6"></td>
+<td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/54902d4c-9631-4c8b-aeb0-248be38e0456" alt="IMG-5"></td>
+<td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/5a154c46-4529-4fa8-a581-dcfdfbf04676" alt="IMG-6"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840">Processing (Radar Graphic User Interface)</th>
+</tr>
+<tr>
+<td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/6ee9c1eb-2d88-45ba-96fe-12c81b01bc61" alt="IMG-7"></td>
 </tr>
 </table>
 
