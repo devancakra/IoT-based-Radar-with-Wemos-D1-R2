@@ -152,7 +152,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 ## Highlights
 <table>
 <tr>
-<th width="840" colspan="2">Hardware Preview</th>
+<th width="840" colspan="2">Hardware View</th>
 </tr>
 <tr>
 <td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/18988ba4-3c72-45c8-9b62-58bffa497921" alt="IMG-1"></td>
