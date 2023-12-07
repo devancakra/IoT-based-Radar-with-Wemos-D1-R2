@@ -125,3 +125,26 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 4. Next, click: ``` BACK ```. The last step, please click: ``` CONNECT ```.
 
 <br><br>
+
+## Get Started
+1. Make sure you have the necessary electronic components.
+   
+2. Make sure your components are designed according to the diagram.
+   
+3. Make sure the components are well connected ``` (Adjust the setup between Board and Port) ```.
+   
+4. Please set up the ``` MQTT topic ``` service on the broker.
+    
+5. Be sure to change the arduino program code in the ``` Router ``` section according to the device you are using.
+    
+6. If you don't apply points 1 and 2 for the purposes of project development that's fine, but please note that some things need to be changed for it to work properly.
+
+7. Ensure that the device is connected to the internet.
+  
+8. Make sure all things have been created.
+
+9. Download and extract this repository.
+   
+10. Please enjoy [Done].
+
+<br><br>
