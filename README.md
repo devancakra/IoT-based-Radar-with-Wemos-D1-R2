@@ -70,13 +70,16 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 <br><br>
 
 ## Arduino IDE Setup
-1. Open the ``` Arduino IDE ``` first, then click: ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
+1. Open the ``` Arduino IDE ``` first, then open the Wemos D1 R2 Radar project by clicking: ``` File ``` -> ``` Open ``` -> ``` wemos_d1r2_radar.ino ```.<br><br>
+   
+2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE<br><br>
+   Method: click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
    
    ```
    http://arduino.esp8266.com/stable/package_esp8266com_index.json
    ```
-
-2. ``` Board Setup ``` in Arduino IDE<br><br>
+   
+3. ``` Board Setup ``` in Arduino IDE<br><br>
    Method: click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```. Then selecting a Board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` Board Manager ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
    <br><br>
    
@@ -90,5 +93,12 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 
 6. ``` Port Setup ``` in Arduino IDE<br><br>
    • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.
+   <br><br>
+
+7. Change the ``` WiFi Name ``` and ``` WiFi Password ``` according to what you are currently using.<br><br>
+
+8. Before uploading the program please click: ``` Verify ```.<br><br>
+
+9. If there is no error in the program code, then please click: ``` Upload ```.
 
 <br><br>
