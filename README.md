@@ -23,3 +23,48 @@ This project is closely related to defense technology, where this tool is used t
 | Other Components | Jumper cable & USB cable type A/B |
 
 <br><br>
+
+## Download & Install
+1. Arduino IDE
+   ```
+   https://www.arduino.cc/en/software
+   ```
+   
+2. Processing
+   ```
+   https://processing.org/download
+   ```
+
+3. MQTT Explorer
+   ```
+   https://mqtt-explorer.com/
+   ```
+
+<br><br>
+
+## System Flow Schematic
+When an object is in the sensor detection area, the sensor will respond by sending publish data to the IoT platform (mosquitto) and then sending back in the form of subscribe data to be displayed on the serial monitor. As for the graph, users can also see a significant color difference in the detection area. If no object is found, the sensor and actuator will always be on standby.
+
+<br><br>
+
+## Project Requirements
+<table>
+<tr>
+<th width="420">Block Diagram</th>
+<th width="420">Pictorial Diagram</th>
+</tr>
+<tr>
+<td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/71ed3ef5-8787-44fc-8c25-9d072c631e1a" alt="Block-Diagram"></td>
+<td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/183c9c9e-eb51-4b88-945b-d30ddc97833a" alt="Pictorial-Diagram"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840">Wiring</th>
+</tr>
+<tr>
+<td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/e49d2460-5653-4fe2-8c6d-0668844efd1f" alt="Wiring"></td>
+</tr>
+</table>
+
+<br><br>
