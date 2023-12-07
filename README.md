@@ -102,3 +102,26 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 9. If there is no error in the program code, then please click: ``` Upload ```.
 
 <br><br>
+
+## Processing Setup
+1. Open the ``` Processing ``` first, then open the Draw Radar project by clicking: ``` File ``` -> ``` Open ``` -> ``` radar_gui.pde ```.<br>
+
+2. Customize your ``` port ``` with the one in the ``` Arduino IDE ```. This is so that the board can be recognized by ``` Processing ```, so that the code can be run properly.<br>
+
+3. The last step, please click: ``` Run ```.
+
+<br><br>
+
+## MQTT Explorer Setup
+1. Open the MQTT Explorer. Then, click the ``` Connections ```: ``` test.mosquitto.org ```.<br>
+
+2. Click the ``` ADVANCED ``` -> ``` Delete All Topics ```.<br>
+
+3. Create a ``` new Topic ``` with QoS "0":
+   ```
+   coursera/uci/radar
+   ```
+
+4. Next, click: ``` BACK ```. The last step, please click: ``` CONNECT ```.
+
+<br><br>
