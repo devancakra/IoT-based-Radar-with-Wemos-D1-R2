@@ -68,3 +68,27 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 </table>
 
 <br><br>
+
+## Arduino IDE Setup
+1. Open the ``` Arduino IDE ``` first, then click: ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
+   
+   ```
+   http://arduino.esp8266.com/stable/package_esp8266com_index.json
+   ```
+
+2. ``` Board Setup ``` in Arduino IDE<br><br>
+   Method: click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```. Then selecting a Board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` Board Manager ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
+   <br><br>
+   
+4. ``` Change the Board Speed ``` in Arduino IDE<br><br>
+   • Method: click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.
+   <br><br>
+   
+5. ``` Install Library ``` in Arduino IDE<br><br>
+   • Method: Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
+   <br><br>
+
+6. ``` Port Setup ``` in Arduino IDE<br><br>
+   • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.
+
+<br><br>
