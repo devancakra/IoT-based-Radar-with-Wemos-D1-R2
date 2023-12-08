@@ -95,7 +95,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
    • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.
    <br><br>
 
-7. Change the ``` WiFi Name ``` and ``` WiFi Password ``` according to what you are currently using.<br><br>
+7. Change the ``` WiFi Name ```, ``` WiFi Password ```, and ``` Client ID ``` according to what you are currently using.<br><br>
 
 8. Before uploading the program please click: ``` Verify ```.<br><br>
 
