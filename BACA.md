@@ -196,7 +196,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <br><br>
 
 ## Pengujian Komponen
-Anda dapat mengunduh berkas uji komponen melalui tautan berikut: <a href="#">Klik Disini</a>
+Anda dapat mengunduh berkas uji komponen melalui tautan berikut: <a href="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/tree/master/component%20testing">Klik Disini</a>
 
 <br><br>
 
