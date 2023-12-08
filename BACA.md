@@ -188,6 +188,18 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 
 <br><br>
 
+## Pengingat
+1. Sebelum memulai proyek, Anda harus menguji komponen terlebih dahulu untuk memastikan perangkat yang digunakan dapat bekerja dengan baik. Hal ini sudah disediakan oleh pembuat program, silakan unduh dan coba satu per satu bagian.
+   
+2. Penggunaan komunikasi serial antara Arduino IDE dan Processing tidak dapat dijalankan secara bersamaan, sehingga jika Anda ingin membuka Processing GUI maka pada saat yang sama Anda tidak dapat membuka Serial Monitor Arduino IDE. Hal ini juga berlaku untuk sebaliknya.
+
+<br><br>
+
+## Pengujian Komponen
+Anda dapat mengunduh berkas uji komponen melalui tautan berikut: <a href="#">Klik Disini</a>
+
+<br><br>
+
 ## Penafian
 Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
 
