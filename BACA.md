@@ -51,7 +51,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <table>
 <tr>
 <th width="420">Diagram Blok</th>
-<th width="420">Diagram Piktorial</th>
+<th width="420">Diagram Ilustrasi</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/71ed3ef5-8787-44fc-8c25-9d072c631e1a" alt="Block-Diagram"></td>
