@@ -122,7 +122,9 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
    coursera/uci/radar
    ```
 
-4. Kemudian, klik: ``` BACK ```. Langkah terakhir, silakan klik: ``` CONNECT ```.
+4. Salin dan tempelkan ``` ID Klien ``` ke dalam proyek ``` Arduino IDE ```.<br>
+
+5. Kemudian, klik: ``` BACK ```. Langkah terakhir, silakan klik: ``` CONNECT ```.
 
 <br><br>
 
