@@ -18,7 +18,7 @@ This project is closely related to defense technology, where this tool is used t
 | IoT Platform | mosquitto |
 | Software (Tools) | Arduino IDE, Processing, MQTT Explorer |
 | Arduino Library | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
-| Actuators | Servo Motor 180° |
+| Actuators | Motor Servo SG90 180° |
 | Sensor | Ultrasonic Sensor (HC-SR04) |
 | Other Components | Jumper cable & USB cable type A/B |
 
