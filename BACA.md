@@ -131,7 +131,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
    
 2. Pastikan komponen anda telah dirancang sesuai dengan diagram.
    
-3. Pastikan komponen terhubung dengan baik ``` (Sesuaikan pengaturan Board dan Port) ```.
+3. Pastikan komponen terhubung dengan baik ``` (Sesuaikan pengaturan antara Board dan Port) ```.
    
 4. Silakan siapkan layanan ``` topik MQTT ``` pada broker.
     
