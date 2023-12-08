@@ -188,6 +188,18 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 
 <br><br>
 
+## Reminder
+1. Before starting the project, you should test the components first to make sure the devices used can work properly. This has been provided by the creator of the program, please download and try one section at a time.
+   
+2. The use of serial communication between Arduino IDE and Processing cannot be run simultaneously, so if you want to open the Processing GUI then at the same time you cannot open the Serial Monitor Arduino IDE. It also applies to the other way around.
+
+<br><br>
+
+## Component Testing
+You can download the component test file via the following link: <a href="#">Click Here</a>
+
+<br><br>
+
 ## Disclaimer
 This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
 
