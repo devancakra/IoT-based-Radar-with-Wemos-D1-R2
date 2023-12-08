@@ -6,25 +6,25 @@
 ![C++](https://img.shields.io/badge/c++-light.svg?&style=flat&logo=c%2B%2B&logoColor=white&color=b3fe63)
 
 # IoT-based-Radar-with-Wemos-D1-R2
-<strong>UCI Coursera Final Project 2023</strong><br>
-This project is closely related to defense technology, where this tool is used to detect the presence or absence of objects around a predetermined area. This defense system is run with the MQTT protocol. In addition, this system also provides a user interface to make monitoring easier.
+<strong>Tugas Akhir UCI Coursera 2023</strong><br>
+Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini digunakan untuk mendeteksi ada atau tidaknya objek di sekitar area yang telah ditentukan. Sistem pertahanan ini dijalankan dengan protokol MQTT. Selain itu, sistem ini juga menyediakan user interface untuk mempermudah pemantauan.
 
 <br><br>
 
-## Features / Framework / Tools
-| Media | Description |
+## Fitur / Kerangka Kerja / Alat
+| Media | Deskripsi |
 | --- | --- |
-| Board Development | Wemos D1 R2 |
-| IoT Platform | mosquitto |
-| Tools | Arduino IDE, Processing, MQTT Explorer |
-| Arduino Library | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
-| Actuators | Servo Motor 180° |
+| Papan Pengembangan | Wemos D1 R2 |
+| Platform IoT | mosquitto |
+| Perangkat Lunak (Alat) | Arduino IDE, Processing, MQTT Explorer |
+| Pustaka Arduino | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
+| Aktuator | Servo Motor 180° |
 | Sensor | Ultrasonic Sensor (HC-SR04) |
-| Other Components | Jumper cable & USB cable type A/B |
+| Komponen Lainnya | Jumper cable & USB cable type A/B |
 
 <br><br>
 
-## Download & Install
+## Unduh & Instal
 1. Arduino IDE
    ```
    https://www.arduino.cc/en/software
@@ -42,16 +42,16 @@ This project is closely related to defense technology, where this tool is used t
 
 <br><br>
 
-## System Flow Schematic
-When an object is in the sensor detection area, the sensor will respond by sending publish data to the IoT platform (mosquitto) and then sending back in the form of subscribe data to be displayed on the serial monitor. As for the graph, users can also see a significant color difference in the detection area. If no object is found, the sensor and actuator will always be on standby.
+## Skema Alur Sistem
+Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon dengan mengirimkan data publish ke platform IoT (mosquito) dan kemudian mengirimkan kembali dalam bentuk data subscribe untuk ditampilkan pada serial monitor. Sedangkan pada grafik, pengguna juga dapat melihat perbedaan warna yang signifikan pada area deteksi. Jika tidak ada objek yang ditemukan, sensor dan aktuator akan selalu siaga.
 
 <br><br>
 
-## Project Requirements
+## Persyaratan Proyek
 <table>
 <tr>
-<th width="420">Block Diagram</th>
-<th width="420">Pictorial Diagram</th>
+<th width="420">Diagram Blok</th>
+<th width="420">Diagram Piktorial</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/71ed3ef5-8787-44fc-8c25-9d072c631e1a" alt="Block-Diagram"></td>
@@ -60,7 +60,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 </table>
 <table>
 <tr>
-<th width="840">Wiring</th>
+<th width="840">Pengkabelan</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/e49d2460-5653-4fe2-8c6d-0668844efd1f" alt="Wiring"></td>
@@ -69,90 +69,90 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 
 <br><br>
 
-## Arduino IDE Setup
-1. Open the ``` Arduino IDE ``` first, then open the Wemos D1 R2 Radar project by clicking: ``` File ``` -> ``` Open ``` -> ``` wemos_d1r2_radar.ino ```.<br><br>
+## Pengaturan Arduino IDE
+1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek Wemos D1 R2 Radar dengan cara klik: ``` File ``` -> ``` Open ``` -> ``` wemos_d1r2_radar.ino ```.<br><br>
    
-2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE<br><br>
-   Method: click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
+2. Isi ``` Url Pengelola Forum ``` di Arduino IDE<br><br>
+   Cara: klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut:
    
    ```
    http://arduino.esp8266.com/stable/package_esp8266com_index.json
    ```
    
-3. ``` Board Setup ``` in Arduino IDE<br><br>
-   Method: click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```. Then selecting a Board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` Board Manager ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
+3. ``` Pengaturan Board ``` di Arduino IDE<br><br>
+   Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```. Kemudian pilih Board dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` Board Manager ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
    <br><br>
    
-4. ``` Change the Board Speed ``` in Arduino IDE<br><br>
-   • Method: click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.
+4. ``` Ubah Kecepatan Papan ``` di Arduino IDE<br><br>
+   • Cara: klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.
    <br><br>
    
-5. ``` Install Library ``` in Arduino IDE<br><br>
-   • Method: Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
+5. ``` Instal pustaka ``` di Arduino IDE<br><br>
+   • Cara: Unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
    <br><br>
 
-6. ``` Port Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.
+6. ``` Pengaturan Port ``` di Arduino IDE<br><br>
+   • Cara: klik ``` Port ``` -> Pilih sesuai dengan port perangkat Anda ``` (Anda dapat melihatnya di Device Manager) ```.
    <br><br>
 
-7. Change the ``` WiFi Name ``` and ``` WiFi Password ``` according to what you are currently using.<br><br>
+7. Ubah ``` WiFi Name ``` dan ``` WiFi Password ``` sesuai dengan yang Anda gunakan saat ini.<br><br>
 
-8. Before uploading the program please click: ``` Verify ```.<br><br>
+8. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
 
-9. If there is no error in the program code, then please click: ``` Upload ```.
+9. Jika tidak ada kesalahan dalam kode program, silakan klik: ``` Upload ```.
 
 <br><br>
 
-## Processing Setup
-1. Open the ``` Processing ``` first, then open the Draw Radar project by clicking: ``` File ``` -> ``` Open ``` -> ``` radar_gui.pde ```.<br>
+## Pengaturan Processing
+1. Buka ``` Processing ``` terlebih dahulu, kemudian buka proyek Radar GUI dengan cara klik: ``` File ``` -> ``` Open ``` -> ``` radar_gui.pde ```.<br>
 
-2. Customize your ``` port ``` with the one in the ``` Arduino IDE ```. This is so that the board can be recognized by ``` Processing ```, so that the code can be run properly.<br>
+2. Sesuaikan ``` port ``` Anda dengan yang ada di ``` Arduino IDE ```. Hal ini dilakukan agar board dapat dikenali oleh ``` Processing ```, sehingga kode dapat dijalankan dengan benar.<br>
 
-3. The last step, please click: ``` Run ```.
+3. Langkah terakhir, silakan klik: ``` Run ```.
 
 <br><br>
 
-## MQTT Explorer Setup
-1. Open the MQTT Explorer. Then, click the ``` Connections ```: ``` test.mosquitto.org ```.<br>
+## Pengaturan MQTT Explorer
+1. Buka MQTT Explorer. Kemudian, klik ``` Connections ```: ``` test.mosquitto.org ```.<br>
 
-2. Click the ``` ADVANCED ``` -> ``` Delete All Topics ```.<br>
+2. Klik ``` ADVANCED ``` -> ``` Delete All Topics ```.<br>
 
-3. Create a ``` new Topic ``` with QoS "0":
+3. Buat ``` Topik baru ``` dengan QoS "0":
    ```
    coursera/uci/radar
    ```
 
-4. Next, click: ``` BACK ```. The last step, please click: ``` CONNECT ```.
+4. Kemudian, klik: ``` BACK ```. Langkah terakhir, silakan klik: ``` CONNECT ```.
 
 <br><br>
 
-## Get Started
-1. Make sure you have the necessary electronic components.
+## Memulai
+1. Pastikan anda memiliki komponen elektronik yang diperlukan.
    
-2. Make sure your components are designed according to the diagram.
+2. Pastikan komponen anda telah dirancang sesuai dengan diagram.
    
-3. Make sure the components are well connected ``` (Adjust the setup between Board and Port) ```.
+3. Pastikan komponen terhubung dengan baik ``` (Sesuaikan pengaturan Board dan Port) ```.
    
-4. Please set up the ``` MQTT topic ``` service on the broker.
+4. Silakan siapkan layanan ``` topik MQTT ``` pada broker.
     
-5. Be sure to change the arduino program code in the ``` Router ``` section according to the device you are using.
+5. Pastikan untuk mengubah kode program arduino di bagian ``` Router ``` sesuai dengan perangkat yang anda gunakan.
     
-6. If you don't apply points 1 and 2 for the purposes of project development that's fine, but please note that some things need to be changed for it to work properly.
+6. Jika anda tidak menerapkan poin 1 dan 2 untuk keperluan pengembangan proyek itu tidak masalah, tetapi harap dicatat bahwa beberapa hal perlu diubah agar dapat berfungsi dengan baik.
 
-7. Ensure that the device is connected to the internet.
+7. Pastikan perangkat terhubung ke internet.
   
-8. Make sure all things have been created.
+8. Pastikan semua Things telah dibuat.
 
-9. Download and extract this repository.
+9. Unduh dan ekstrak repositori ini.
    
-10. Please enjoy [Done].
+10. Selamat menikmati [Selesai].
 
 <br><br>
 
-## Highlights
+## Sorotan
 <table>
 <tr>
-<th width="840" colspan="2">Hardware View</th>
+<th width="840" colspan="2">Tampilan Perangkat Keras</th>
 </tr>
 <tr>
 <td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/18988ba4-3c72-45c8-9b62-58bffa497921" alt="IMG-1"></td>
@@ -161,7 +161,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 </table>
 <table>
 <tr>
-<th width="840" colspan="2">MQTT Explorer (JSON data on Topic)</th>
+<th width="840" colspan="2">MQTT Explorer (Data JSON pada Topik)</th>
 </tr>
 <tr>
 <td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/37031059-3957-40a9-a5d2-7e38a6d59037" alt="IMG-3"></td>
@@ -179,7 +179,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 </table>
 <table>
 <tr>
-<th width="840">Processing (Radar Graphic User Interface)</th>
+<th width="840">Processing (Antarmuka Pengguna Grafis Radar)</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/6ee9c1eb-2d88-45ba-96fe-12c81b01bc61" alt="IMG-7"></td>
@@ -188,16 +188,16 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 
 <br><br>
 
-## Disclaimer
-This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
+## Penafian
+Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
 
 <br><br>
 
-## LICENSE
-MIT License - Copyright (c) 2023 - Devan C. M. Wijaya, S.Kom
+## LISENSI
+LISENSI MIT - Hak Cipta (c) 2023 - Devan C. M. Wijaya, S.Kom
 
-Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:
+Dengan ini diberikan izin tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk menggunakannya tanpa batasan, termasuk namun tidak terbatas pada hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, mempublikasikan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak ini, dan mengizinkan orang yang menerima Perangkat Lunak ini untuk dilengkapi dengan persyaratan berikut:
 
-The above copyright notice and this permission notice must accompany all copies or substantial portions of the Software.
+Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus menyertai semua salinan atau bagian penting dari Perangkat Lunak.
 
-IN ANY EVENT, THE AUTHOR OR COPYRIGHT HOLDER HEREIN RETAINS FULL OWNERSHIP RIGHTS. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, THEREFORE IF ANY DAMAGE, LOSS, OR OTHERWISE ARISES FROM THE USE OR OTHER DEALINGS IN THE SOFTWARE, THE AUTHOR OR COPYRIGHT HOLDER SHALL NOT BE LIABLE, AS THE USE OF THE SOFTWARE IS NOT COMPELLED AT ALL, SO THE RISK IS YOUR OWN.
+DALAM HAL APAPUN, PENULIS ATAU PEMEGANG HAK CIPTA DI SINI TETAP MEMILIKI HAK KEPEMILIKAN PENUH. PERANGKAT LUNAK INI DISEDIAKAN SEBAGAIMANA ADANYA, TANPA JAMINAN APAPUN, BAIK TERSURAT MAUPUN TERSIRAT, OLEH KARENA ITU JIKA TERJADI KERUSAKAN, KEHILANGAN, ATAU LAINNYA YANG TIMBUL DARI PENGGUNAAN ATAU URUSAN LAIN DALAM PERANGKAT LUNAK INI, PENULIS ATAU PEMEGANG HAK CIPTA TIDAK BERTANGGUNG JAWAB, KARENA PENGGUNAAN PERANGKAT LUNAK INI TIDAK DIPAKSAKAN SAMA SEKALI, SEHINGGA RISIKO ADALAH MILIK ANDA SENDIRI.
