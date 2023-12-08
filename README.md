@@ -16,7 +16,7 @@ This project is closely related to defense technology, where this tool is used t
 | --- | --- |
 | Board Development | Wemos D1 R2 |
 | IoT Platform | mosquitto |
-| Tools | Arduino IDE, Processing, MQTT Explorer |
+| Software (Tools) | Arduino IDE, Processing, MQTT Explorer |
 | Arduino Library | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
 | Actuators | Servo Motor 180° |
 | Sensor | Ultrasonic Sensor (HC-SR04) |
@@ -104,7 +104,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 <br><br>
 
 ## Processing Setup
-1. Open the ``` Processing ``` first, then open the Draw Radar project by clicking: ``` File ``` -> ``` Open ``` -> ``` radar_gui.pde ```.<br>
+1. Open the ``` Processing ``` first, then open the Radar GUI project by clicking: ``` File ``` -> ``` Open ``` -> ``` radar_gui.pde ```.<br>
 
 2. Customize your ``` port ``` with the one in the ``` Arduino IDE ```. This is so that the board can be recognized by ``` Processing ```, so that the code can be run properly.<br>
 
@@ -113,7 +113,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 <br><br>
 
 ## MQTT Explorer Setup
-1. Open the MQTT Explorer. Then, click the ``` Connections ```: ``` test.mosquitto.org ```.<br>
+1. Open the ``` MQTT Explorer ```. Then, click the Connections: ``` test.mosquitto.org ```.<br>
 
 2. Click the ``` ADVANCED ``` -> ``` Delete All Topics ```.<br>
 
