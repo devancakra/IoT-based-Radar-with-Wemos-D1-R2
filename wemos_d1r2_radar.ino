@@ -12,7 +12,7 @@ StaticJsonDocument<256> DataPublish, DataSubscribe;
 #define password "Your WiFi Password"
 #define mqtt_server "test.mosquitto.org"
 #define mqtt_topic "coursera/uci/radar"
-String clientId = "mqtt-explorer-f275e0ec";
+String clientId = "Your Client ID";
 #define servoPin D6
 #define trigPin D5
 #define echoPin D4
