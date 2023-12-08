@@ -87,7 +87,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
    • Cara: klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.
    <br><br>
    
-5. ``` Instal pustaka ``` di Arduino IDE<br><br>
+5. ``` Instal Pustaka ``` di Arduino IDE<br><br>
    • Cara: Unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
    <br><br>
 
