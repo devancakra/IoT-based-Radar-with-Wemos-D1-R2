@@ -19,8 +19,8 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 | Perangkat Lunak (Alat) | Arduino IDE, Processing, MQTT Explorer |
 | Pustaka Arduino | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
 | Aktuator | Servo Motor 180° |
-| Sensor | Ultrasonic Sensor (HC-SR04) |
-| Komponen Lainnya | Jumper cable & USB cable type A/B |
+| Sensor | Sensor Ultrasonik (HC-SR04) |
+| Komponen Lainnya | Kabel Jumper & Kabel USB tipe A/B |
 
 <br><br>
 
