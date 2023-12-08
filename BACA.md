@@ -113,7 +113,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <br><br>
 
 ## Pengaturan MQTT Explorer
-1. Buka MQTT Explorer. Kemudian, klik ``` Connections ```: ``` test.mosquitto.org ```.<br>
+1. Buka ``` MQTT Explorer ```. Kemudian, klik Connections: ``` test.mosquitto.org ```.<br>
 
 2. Klik ``` ADVANCED ``` -> ``` Delete All Topics ```.<br>
 
