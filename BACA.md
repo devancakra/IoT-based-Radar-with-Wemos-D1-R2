@@ -95,7 +95,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
    • Cara: klik ``` Port ``` -> Pilih sesuai dengan port perangkat Anda ``` (Anda dapat melihatnya di Device Manager) ```.
    <br><br>
 
-7. Ubah ``` WiFi Name ``` dan ``` WiFi Password ``` sesuai dengan yang Anda gunakan saat ini.<br><br>
+7. Ubah ``` Nama WiFi ``` dan ``` Kata Sandi WiFi ``` sesuai dengan yang Anda gunakan saat ini.<br><br>
 
 8. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
 
