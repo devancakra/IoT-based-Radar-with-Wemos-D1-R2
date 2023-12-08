@@ -122,7 +122,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
    coursera/uci/radar
    ```
 
-4. Copy and paste the Client ID into the Arduino IDE project.<br>
+4. Copy and paste the ``` Client ID ``` into the ``` Arduino IDE ``` project.<br>
 
 5. Next, click: ``` BACK ```. The last step, please click: ``` CONNECT ```.
 
