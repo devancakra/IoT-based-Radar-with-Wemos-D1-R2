@@ -80,7 +80,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
    ```
    
 3. ``` Pengaturan Board ``` di Arduino IDE<br><br>
-   Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```. Kemudian pilih Board dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` Board Manager ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
+   Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```. Kemudian pilih Board dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
    <br><br>
    
 4. ``` Ubah Kecepatan Papan ``` di Arduino IDE<br><br>
