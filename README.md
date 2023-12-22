@@ -198,7 +198,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 <br><br>
 
 ## Component Testing
-You can download the component test file via the following link: <a href="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/tree/master/component%20testing">Click Here</a>
+You can download the component test file via the following link: <a href="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/tree/master/Assets/Component%20Testing">Click Here</a>
 
 <br><br>
 
