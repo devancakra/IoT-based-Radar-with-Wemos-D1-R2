@@ -17,6 +17,7 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 | Driver | USB-Serial CH340 |
 | Platform IoT | mosquitto |
 | Peralatan IoT | MQTT Explorer |
+| Protokol IoT | MQTT |
 | Pustaka Arduino | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
 | Aktuator | Motor Servo SG90 180° |
 | Sensor | Sensor Ultrasonik (HC-SR04) |
