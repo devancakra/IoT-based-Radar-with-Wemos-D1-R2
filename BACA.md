@@ -86,14 +86,14 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek Wemos D1 R2 Radar dengan cara klik: ``` File ``` -> ``` Open ``` -> ``` wemos_d1r2_radar.ino ```.<br><br>
    
 2. Isi ``` Url Pengelola Papan Tambahan ``` di Arduino IDE<br><br>
-   Cara: klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut:
+   • Cara: klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut:
    
    ```
    http://arduino.esp8266.com/stable/package_esp8266com_index.json
    ```
    
 3. ``` Pengaturan Board ``` di Arduino IDE<br><br>
-   Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```. Kemudian pilih Board dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
+   • Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```. Kemudian pilih Board dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
    <br><br>
    
 4. ``` Ubah Kecepatan Papan ``` di Arduino IDE<br><br>
