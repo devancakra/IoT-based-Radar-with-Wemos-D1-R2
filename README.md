@@ -18,6 +18,7 @@ This project is closely related to defense technology, where this tool is used t
 | IoT Platform | mosquitto |
 | IoT Appliances | MQTT Explorer |
 | IoT Protocol | MQTT |
+| IoT Architecture | 3 Layer |
 | Arduino Library | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
 | Actuators | Servo Motor SG90 180° |
 | Sensor | Ultrasonic Sensor (HC-SR04) |
