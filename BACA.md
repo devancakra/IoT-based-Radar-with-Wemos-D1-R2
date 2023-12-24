@@ -13,8 +13,10 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 | Media | Deskripsi |
 | --- | --- |
 | Papan Pengembangan | Wemos D1 R2 |
+| Editor Kode | Arduino IDE & Processing |
+| Driver | USB-Serial CH340 |
 | Platform IoT | mosquitto |
-| Perangkat Lunak (Alat) | Arduino IDE, Processing, MQTT Explorer |
+| Peralatan IoT | MQTT Explorer |
 | Pustaka Arduino | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
 | Aktuator | Motor Servo SG90 180° |
 | Sensor | Sensor Ultrasonik (HC-SR04) |
@@ -24,20 +26,32 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 
 ## Unduh & Instal
 1. Arduino IDE
+   
    ```
    https://www.arduino.cc/en/software
    ```
+   <br>
    
 2. Processing
+   
    ```
    https://processing.org/download
    ```
+   <br>
 
 3. MQTT Explorer
+   
    ```
    https://mqtt-explorer.com/
    ```
+   <br>
+   
+4. USB-Serial CH340
 
+   ```
+   https://bit.ly/CH340_Driver
+   ```
+   
 <br><br>
 
 ## Skema Alur Sistem
