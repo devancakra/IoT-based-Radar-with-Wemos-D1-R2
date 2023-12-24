@@ -17,6 +17,7 @@ This project is closely related to defense technology, where this tool is used t
 | Driver | USB-Serial CH340 |
 | IoT Platform | mosquitto |
 | IoT Appliances | MQTT Explorer |
+| IoT Protocol | MQTT |
 | Arduino Library | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
 | Actuators | Servo Motor SG90 180° |
 | Sensor | Ultrasonic Sensor (HC-SR04) |
