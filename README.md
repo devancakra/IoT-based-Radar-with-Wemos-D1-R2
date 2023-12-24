@@ -101,7 +101,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
    <br><br>
    
 5. ``` Install Library ``` in Arduino IDE<br><br>
-   • Method: Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
+   • Method: download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
    <br><br>
 
 6. ``` Port Setup ``` in Arduino IDE<br><br>
