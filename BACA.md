@@ -142,25 +142,19 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <br><br>
 
 ## Memulai
-1. Pastikan anda memiliki komponen elektronik yang diperlukan.
-   
-2. Pastikan komponen anda telah dirancang sesuai dengan diagram.
-   
-3. Pastikan komponen terhubung dengan baik ``` (Sesuaikan pengaturan antara Board dan Port) ```.
-   
-4. Silakan siapkan layanan ``` topik MQTT ``` pada broker.
-    
-5. Pastikan untuk mengubah kode program arduino di bagian ``` Router ``` sesuai dengan perangkat yang anda gunakan.
-    
-6. Jika anda tidak menerapkan poin 1 dan 2 untuk keperluan pengembangan proyek itu tidak masalah, tetapi harap dicatat bahwa beberapa hal perlu diubah agar dapat berfungsi dengan baik.
+1. Unduh dan ekstrak repositori ini.<br>
 
-7. Pastikan perangkat terhubung ke internet.
-  
-8. Pastikan semua Things telah dibuat.
-
-9. Unduh dan ekstrak repositori ini.
+2. Pastikan anda memiliki komponen elektronik yang diperlukan.<br>
    
-10. Selamat menikmati [Selesai].
+3. Pastikan komponen anda telah dirancang sesuai dengan diagram.<br>
+   
+4. Silakan siapkan layanan ``` topik MQTT ``` pada broker.<br>
+    
+5. Jika Anda tidak menerapkan poin 2 dan 3 untuk tujuan pengembangan proyek, tidak masalah, tetapi perlu diketahui bahwa beberapa hal perlu diubah sesuai dengan kebutuhan Anda agar sistem dapat bekerja dengan baik.<br>
+
+6. Pastikan semua Things telah dibuat.<br>
+
+7. Selamat menikmati [Selesai].
 
 <br><br>
 
