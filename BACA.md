@@ -101,7 +101,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
    <br><br>
    
 5. ``` Instal Pustaka ``` di Arduino IDE<br><br>
-   • Cara: Unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
+   • Cara: unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
    <br><br>
 
 6. ``` Pengaturan Port ``` di Arduino IDE<br><br>
