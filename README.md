@@ -86,14 +86,14 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 1. Open the ``` Arduino IDE ``` first, then open the Wemos D1 R2 Radar project by clicking: ``` File ``` -> ``` Open ``` -> ``` wemos_d1r2_radar.ino ```.<br><br>
    
 2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE<br><br>
-   Method: click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
+   • Method: click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
    
    ```
    http://arduino.esp8266.com/stable/package_esp8266com_index.json
    ```
    
 3. ``` Board Setup ``` in Arduino IDE<br><br>
-   Method: click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```. Then selecting a Board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
+   • Method: click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```. Then selecting a Board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
    <br><br>
    
 4. ``` Change the Board Speed ``` in Arduino IDE<br><br>
