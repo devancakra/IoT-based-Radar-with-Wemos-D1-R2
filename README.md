@@ -13,8 +13,10 @@ This project is closely related to defense technology, where this tool is used t
 | Media | Description |
 | --- | --- |
 | Board Development | Wemos D1 R2 |
+| Code Editor | Arduino IDE & Processing |
+| Driver | USB-Serial CH340 |
 | IoT Platform | mosquitto |
-| Software (Tools) | Arduino IDE, Processing, MQTT Explorer |
+| IoT Appliances | MQTT Explorer |
 | Arduino Library | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
 | Actuators | Servo Motor SG90 180° |
 | Sensor | Ultrasonic Sensor (HC-SR04) |
@@ -24,20 +26,32 @@ This project is closely related to defense technology, where this tool is used t
 
 ## Download & Install
 1. Arduino IDE
+   
    ```
    https://www.arduino.cc/en/software
    ```
+   <br>
    
 2. Processing
+   
    ```
    https://processing.org/download
    ```
+   <br>
 
 3. MQTT Explorer
+   
    ```
    https://mqtt-explorer.com/
    ```
+   <br>
+   
+4. USB-Serial CH340
 
+   ```
+   https://bit.ly/CH340_Driver
+   ```
+   
 <br><br>
 
 ## System Flow Schematic
