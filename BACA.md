@@ -165,7 +165,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <th width="840" colspan="2">Tampilan Perangkat Keras</th>
 </tr>
 <tr>
-<td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/18988ba4-3c72-45c8-9b62-58bffa497921" alt="IMG-1"></td>
+<td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/d031c2ea-2737-4537-8948-1cac52725464" alt="IMG-1"></td>
 <td width="420"><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/dd84d910-2cb5-4e75-99cd-1c362e8c7475" alt="IMG-2"></td>
 </tr>
 </table>
