@@ -68,7 +68,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <th width="420">Diagram Ilustrasi</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/71ed3ef5-8787-44fc-8c25-9d072c631e1a" alt="Block-Diagram"></td>
+<td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/b9890292-0b28-4a78-8f9d-39df8f806177" alt="Block-Diagram"></td>
 <td><img src="https://github.com/devancakra/IoT-based-Radar-with-Wemos-D1-R2/assets/54527592/183c9c9e-eb51-4b88-945b-d30ddc97833a" alt="Pictorial-Diagram"></td>
 </tr>
 </table>
