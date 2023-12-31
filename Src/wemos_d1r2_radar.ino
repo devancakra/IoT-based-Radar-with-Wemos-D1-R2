@@ -8,11 +8,11 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 StaticJsonDocument<256> DataPublish, DataSubscribe;
 
-#define ssid "Your WiFi Name"
-#define password "Your WiFi Password"
+#define ssid "YOUR_WIFI_NAME"
+#define password "YOUR_WIFI_PASSWORD"
 #define mqtt_server "test.mosquitto.org"
 #define mqtt_topic "coursera/uci/radar"
-String clientId = "Your Client ID";
+String clientId = "YOUR_CLIENT_ID";
 #define servoPin D6
 #define trigPin D5
 #define echoPin D4
