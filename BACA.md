@@ -4,7 +4,7 @@
 ![IoT](https://img.shields.io/badge/Project-Internet%20of%20Things-blue?logo=arduino&color=%23F7DF1E)
 
 # IoT-based-Radar-with-Wemos-D1-R2
-<strong>Tugas Akhir UCI Coursera 2023</strong><br>
+<strong>Tugas Akhir UCI Coursera 2023</strong><br><br>
 Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini digunakan untuk mendeteksi ada atau tidaknya objek di sekitar area yang telah ditentukan. Sistem pertahanan ini dijalankan dengan protokol MQTT. Selain itu, sistem ini juga menyediakan user interface untuk mempermudah pemantauan.
 
 <br><br>
