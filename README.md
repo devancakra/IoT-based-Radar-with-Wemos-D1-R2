@@ -4,7 +4,7 @@
 ![IoT](https://img.shields.io/badge/Project-Internet%20of%20Things-blue?logo=arduino&color=%23F7DF1E)
 
 # IoT-based-Radar-with-Wemos-D1-R2
-<strong>UCI Coursera Final Project 2023</strong><br>
+<strong>UCI Coursera Final Project 2023</strong><br><br>
 This project is closely related to defense technology, where this tool is used to detect the presence or absence of objects around a predetermined area. This defense system is run with the MQTT protocol. In addition, this system also provides a user interface to make monitoring easier.
 
 <br><br>
