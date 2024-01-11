@@ -9,7 +9,7 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 
 <br><br>
 
-## Fitur / Kerangka Kerja / Alat
+## Kebutuhan Proyek
 | Media | Deskripsi |
 | --- | --- |
 | Papan Pengembangan | Wemos D1 R2 |
@@ -144,19 +144,15 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <br><br>
 
 ## Memulai
-1. Unduh dan ekstrak repositori ini.<br>
+1. Unduh dan ekstrak repositori ini.<br><br>
 
-2. Pastikan anda memiliki komponen elektronik yang diperlukan.<br>
+2. Pastikan anda memiliki komponen elektronik yang diperlukan.<br><br>
    
-3. Pastikan komponen anda telah dirancang sesuai dengan diagram.<br>
+3. Pastikan komponen anda telah dirancang sesuai dengan diagram.<br><br>
    
-4. Silakan siapkan layanan ``` topik MQTT ``` pada broker.<br>
-    
-5. Jika Anda tidak menerapkan poin 2 dan 3 untuk tujuan pengembangan proyek, tidak masalah, tetapi perlu diketahui bahwa beberapa hal perlu diubah sesuai dengan kebutuhan Anda agar sistem dapat bekerja dengan baik.<br>
+4. Konfigurasikan perangkat anda menurut pengaturan di atas.<br><br>
 
-6. Pastikan semua Things telah dibuat.<br>
-
-7. Selamat menikmati [Selesai].
+5. Selamat menikmati [Selesai].
 
 <br><br>
 
