@@ -62,7 +62,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 
 <br><br>
 
-## Persyaratan Proyek
+## Rancangan Proyek
 <table>
 <tr>
 <th width="420">Diagram Blok</th>
