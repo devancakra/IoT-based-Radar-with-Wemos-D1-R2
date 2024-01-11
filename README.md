@@ -9,7 +9,7 @@ This project is closely related to defense technology, where this tool is used t
 
 <br><br>
 
-## Features / Framework / Tools
+## Project Requirements
 | Media | Description |
 | --- | --- |
 | Board Development | Wemos D1 R2 |
@@ -62,7 +62,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 
 <br><br>
 
-## Project Requirements
+## Project Designs
 <table>
 <tr>
 <th width="420">Block Diagram</th>
@@ -144,19 +144,15 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 <br><br>
 
 ## Get Started
-1. Download and extract this repository.<br>
+1. Download and extract this repository.<br><br>
 
-2. Make sure you have the necessary electronic components.<br>
+2. Make sure you have the necessary electronic components.<br><br>
    
-3. Make sure your components are designed according to the diagram.<br>
+3. Make sure your components are designed according to the diagram.<br><br>
    
-4. Please set up the ``` MQTT topic ``` service on the broker.<br>
-    
-5. If you don't apply points 2 and 3 for project development purposes, that's fine, but be aware that some things need to be changed according to your needs for the system to work properly.
-
-6. Make sure all things have been created.<br>
+4. Configure your device according to the settings above.<br><br>
    
-7. Please enjoy [Done].
+5. Please enjoy [Done].
 
 <br><br>
 
