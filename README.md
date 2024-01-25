@@ -23,7 +23,7 @@ This project is closely related to defense technology, where this tool is used t
 | Arduino Library | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
 | Actuators | Servo Motor SG90 180° (x1) |
 | Sensor | HC-SR04: Ultrasonic Sensor (x1) |
-| Other Components | Micro USB cable - USB type A (x1) and Jumper cable (1 set) |
+| Other Components | Micro USB cable - USB type A (x1), Jumper cable (1 set), Screws (1 set), and HC-SR04 Mounting Bracket (x1) |
 
 <br><br>
 
