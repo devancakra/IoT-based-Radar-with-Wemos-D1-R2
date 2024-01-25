@@ -23,7 +23,7 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 | Pustaka Arduino | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
 | Aktuator | Motor Servo SG90 180° (x1) |
 | Sensor | HC-SR04: Sensor Ultrasonik (x1) |
-| Komponen Lainnya | Kabel micro usb (x1), Kabel jumper, DLL |
+| Komponen Lainnya | Kabel Mikro USB - USB tipe A (x1), Kabel jumper (1 set), Sekrup (1 set), and Braket Pemasangan HC-SR04 (x1) |
 
 <br><br>
 
