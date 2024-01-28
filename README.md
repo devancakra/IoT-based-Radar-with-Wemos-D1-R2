@@ -12,7 +12,7 @@ This project is closely related to defense technology, where this tool is used t
 ## Project Requirements
 | Media | Description |
 | --- | --- |
-| Board Development | Wemos D1 R2 |
+| Development Board | Wemos D1 R2 |
 | Code Editor | Arduino IDE & Processing |
 | Driver | USB-Serial CH340 |
 | IoT Platform | mosquitto |
