@@ -10,7 +10,7 @@ This project is closely related to defense technology, where this tool is used t
 <br><br>
 
 ## Project Requirements
-| Media | Description |
+| Part | Description |
 | --- | --- |
 | Development Board | Wemos D1 R2 |
 | Code Editor | Arduino IDE & Processing |
