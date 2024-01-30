@@ -10,7 +10,7 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 <br><br>
 
 ## Kebutuhan Proyek
-| Media | Deskripsi |
+| Bagian | Deskripsi |
 | --- | --- |
 | Papan Pengembangan | Wemos D1 R2 |
 | Editor Kode | Arduino IDE & Processing |
