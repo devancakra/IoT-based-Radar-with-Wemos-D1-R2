@@ -114,7 +114,9 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 
 8. Before uploading the program please click: ``` Verify ```.<br><br>
 
-9. If there is no error in the program code, then please click: ``` Upload ```.
+9. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+
+10. If there is still a problem when uploading the program, then try to check the ``` driver ``` / ``` port ``` / ``` others ``` section.
 
 <br><br>
 
