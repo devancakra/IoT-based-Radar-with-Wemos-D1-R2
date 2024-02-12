@@ -102,7 +102,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 
    <table><tr><td width="810">
    
-      ``` wemos_d1r2_radar.ino ```.
+      ``` wemos_d1r2_radar.ino ```
 
    </td></tr></table><br>
    
@@ -170,25 +170,36 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <br><br>
 
 ## Pengaturan Processing
-1. Buka ``` Processing ``` terlebih dahulu, kemudian buka proyek Radar GUI dengan cara klik: ``` File ``` -> ``` Open ``` -> ``` radar_gui.pde ```.<br>
+1. Buka ``` Processing ``` terlebih dahulu, kemudian buka proyek Radar GUI dengan cara klik ``` File ``` -> ``` Open ``` : 
 
-2. Sesuaikan ``` port ``` Anda dengan yang ada di ``` Arduino IDE ```. Hal ini dilakukan agar board dapat dikenali oleh ``` Processing ```, sehingga kode dapat dijalankan dengan benar.<br>
+   <table><tr><td width="810">
+      
+      ``` radar_gui.pde ```
+
+   </td></tr></table><br>
+
+2. Sesuaikan ``` port ``` Anda dengan yang ada di ``` Arduino IDE ```. Hal ini dilakukan agar board dapat dikenali oleh ``` Processing ```, sehingga kode dapat dijalankan dengan benar.<br><br>
 
 3. Langkah terakhir, silakan klik: ``` Run ```.
 
 <br><br>
 
 ## Pengaturan MQTT Explorer
-1. Buka ``` MQTT Explorer ```. Kemudian, klik Connections: ``` test.mosquitto.org ```.<br>
+1. Buka ``` MQTT Explorer ```. Kemudian, klik Connections: ``` test.mosquitto.org ```.<br><br>
 
-2. Klik ``` ADVANCED ``` -> ``` Delete All Topics ```.<br>
+2. Klik ``` ADVANCED ``` -> ``` Delete All Topics ```.<br><br>
 
 3. Buat ``` Topik baru ``` dengan QoS "0":
+
+   <table><tr><td width="810">
+      
    ```
    coursera/uci/radar
    ```
 
-4. Salin dan tempelkan ``` ID Klien ``` ke dalam proyek ``` Arduino IDE ```.<br>
+   </td></tr></table><br>
+
+4. Salin dan tempelkan ``` ID Klien ``` ke dalam proyek ``` Arduino IDE ```.<br><br>
 
 5. Kemudian, klik: ``` BACK ```. Langkah terakhir, silakan klik: ``` CONNECT ```.
 
@@ -247,9 +258,14 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <br><br>
 
 ## Pengingat
+
+<table><tr><td width="840">
+      
 1. Sebelum memulai proyek, Anda harus menguji komponen terlebih dahulu untuk memastikan perangkat yang digunakan dapat bekerja dengan baik. Hal ini sudah disediakan oleh pembuat program, silakan unduh dan coba satu per satu bagian.
    
 2. Penggunaan komunikasi serial antara Arduino IDE dan Processing tidak dapat dijalankan secara bersamaan, sehingga jika Anda ingin membuka Processing GUI maka pada saat yang sama Anda tidak dapat membuka Serial Monitor Arduino IDE. Hal ini juga berlaku untuk sebaliknya.
+
+</td></tr></table>
 
 <br><br>
 
