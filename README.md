@@ -13,47 +13,60 @@ This project is closely related to defense technology, where this tool is used t
 | Part | Description |
 | --- | --- |
 | Development Board | Wemos D1 R2 |
-| Code Editor | Arduino IDE & Processing |
+| Code Editor | • Arduino IDE<br>• Processing |
 | Driver | USB-Serial CH340 |
 | IoT Platform | mosquitto |
 | IoT Appliances | MQTT Explorer |
 | IoT Protocol | MQTT |
 | IoT Architecture | 3 Layer |
-| Programming Language | C/C++ and Python |
-| Arduino Library | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
+| Programming Language | • C/C++<br>• Processing |
+| Arduino Library | • ESP8266WiFi<br>• Servo<br>• PubSubClient<br>• ArduinoJson |
 | Actuators | Servo Motor SG90 180° (x1) |
 | Sensor | HC-SR04: Ultrasonic Sensor (x1) |
-| Other Components | Micro USB cable - USB type A (x1), Jumper cable (1 set), Screws (1 set), and HC-SR04 Mounting Bracket (x1) |
+| Other Components | • Micro USB cable - USB type A (x1)<br>• Jumper cable (1 set)<br>• Screws (1 set)<br>• HC-SR04 Mounting Bracket (x1) |
 
 <br><br>
 
 ## Download & Install
 1. Arduino IDE
+
+   <table><tr><td width="810">
    
    ```
    https://www.arduino.cc/en/software
    ```
-   <br>
+
+   </td></tr></table><br>
    
 2. Processing
+
+   <table><tr><td width="810">
    
    ```
    https://processing.org/download
    ```
-   <br>
+
+   </td></tr></table><br>
 
 3. MQTT Explorer
+
+   <table><tr><td width="810">
    
    ```
    https://mqtt-explorer.com/
    ```
-   <br>
+
+   </td></tr></table><br>
    
 4. USB-Serial CH340
+
+   <table><tr><td width="810">
 
    ```
    https://bit.ly/CH340_Driver
    ```
+
+   </td></tr></table>
    
 <br><br>
 
@@ -85,43 +98,76 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 <br><br>
 
 ## Arduino IDE Setup
-1. Open the ``` Arduino IDE ``` first, then open the Wemos D1 R2 Radar project by clicking: ``` File ``` -> ``` Open ``` -> ``` wemos_d1r2_radar.ino ```.<br><br>
-   
-2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE<br><br>
-   • Method: click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
-   
-   ```
-   http://arduino.esp8266.com/stable/package_esp8266com_index.json
-   ```
-   
-3. ``` Board Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```. Then selecting a Board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
-   <br><br>
-   
-4. ``` Change the Board Speed ``` in Arduino IDE<br><br>
-   • Method: click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.
-   <br><br>
-   
-5. ``` Install Library ``` in Arduino IDE<br><br>
-   • Method: download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
-   <br><br>
+1. Open the ``` Arduino IDE ``` first, then open the Wemos D1 R2 Radar project by clicking ``` File ``` -> ``` Open ``` : 
 
-6. ``` Port Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.
-   <br><br>
+   <table><tr><td width="810">
+      
+      ``` wemos_d1r2_radar.ino ```
 
-7. Change the ``` WiFi Name ```, ``` WiFi Password ```, and ``` Client ID ``` according to what you are currently using.<br><br>
+   </td></tr></table><br>
+   
+2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE
 
-8. Before uploading the program please click: ``` Verify ```.<br><br>
+   <table><tr><td width="810">
+      
+      Click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
+      
+      ```
+      http://arduino.esp8266.com/stable/package_esp8266com_index.json
+      ```
 
-9. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+   </td></tr></table><br>
+   
+3. ``` Board Setup ``` in Arduino IDE
 
-10. If there is still a problem when uploading the program, then try to check the ``` driver ``` / ``` port ``` / ``` others ``` section.
+   <table>
+      <tr><th width="810">
+
+      How to setup the ``` WEMOS D1 R2 ``` board
+            
+      </th></tr>
+      <tr><td>
+      
+      • Click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```.
+
+      • Then click ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
+
+      </td></tr>
+   </table><br>
+   
+5. ``` Change the Board Speed ``` in Arduino IDE<br><br>
+   Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
+
+   </td></tr></table><br>
+   
+6. ``` Install Library ``` in Arduino IDE<br><br>
+   Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+
+   </td></tr></table><br>
+
+7. ``` Port Setup ``` in Arduino IDE<br><br>
+   Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```
+
+   </td></tr></table><br>
+
+8. Change the ``` WiFi Name ```, ``` WiFi Password ```, and ``` Client ID ``` according to what you are currently using.<br><br>
+
+9. Before uploading the program please click: ``` Verify ```.<br><br>
+
+10. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+
+11. If there is still a problem when uploading the program, then try to check the ``` driver ``` / ``` port ``` / ``` others ``` section.
 
 <br><br>
 
 ## Processing Setup
-1. Open the ``` Processing ``` first, then open the Radar GUI project by clicking: ``` File ``` -> ``` Open ``` -> ``` radar_gui.pde ```.<br>
+1. Open the ``` Processing ``` first, then open the Radar GUI project by clicking ``` File ``` -> ``` Open ``` : 
+
+   <table><tr><td width="810">
+      
+      ``` radar_gui.pde ```
+
+   </td></tr></table><br>
 
 2. Customize your ``` port ``` with the one in the ``` Arduino IDE ```. This is so that the board can be recognized by ``` Processing ```, so that the code can be run properly.<br>
 
@@ -135,9 +181,14 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 2. Click the ``` ADVANCED ``` -> ``` Delete All Topics ```.<br>
 
 3. Create a ``` new Topic ``` with QoS "0":
+
+   <table><tr><td width="810">
+      
    ```
    coursera/uci/radar
    ```
+
+   </td></tr></table><br>
 
 4. Copy and paste the ``` Client ID ``` into the ``` Arduino IDE ``` project.<br>
 
