@@ -135,28 +135,37 @@ When an object is in the sensor detection area, the sensor will respond by sendi
       </td></tr>
    </table><br>
    
-5. ``` Change the Board Speed ``` in Arduino IDE<br><br>
-   Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
+4. ``` Change the Board Speed ``` in Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
 
    </td></tr></table><br>
    
-6. ``` Install Library ``` in Arduino IDE<br><br>
-   Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+5. ``` Install Library ``` in Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
 
    </td></tr></table><br>
 
-7. ``` Port Setup ``` in Arduino IDE<br><br>
-   Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```
+6. ``` Port Setup ``` in Arduino IDE
+
+   <table><tr><td width="810">
+      
+      Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```
 
    </td></tr></table><br>
 
-8. Change the ``` WiFi Name ```, ``` WiFi Password ```, and ``` Client ID ``` according to what you are currently using.<br><br>
+7. Change the ``` WiFi Name ```, ``` WiFi Password ```, and ``` Client ID ``` according to what you are currently using.<br><br>
 
-9. Before uploading the program please click: ``` Verify ```.<br><br>
+8. Before uploading the program please click: ``` Verify ```.<br><br>
 
-10. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+9. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
 
-11. If there is still a problem when uploading the program, then try to check the ``` driver ``` / ``` port ``` / ``` others ``` section.
+10. If there is still a problem when uploading the program, then try checking the ``` driver ``` / ``` port ``` / ``` others ``` section.
 
 <br><br>
 
@@ -169,16 +178,16 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 
    </td></tr></table><br>
 
-2. Customize your ``` port ``` with the one in the ``` Arduino IDE ```. This is so that the board can be recognized by ``` Processing ```, so that the code can be run properly.<br>
+2. Customize your ``` port ``` with the one in the ``` Arduino IDE ```. This is so that the board can be recognized by ``` Processing ```, so that the code can be run properly.<br><br>
 
 3. The last step, please click: ``` Run ```.
 
 <br><br>
 
 ## MQTT Explorer Setup
-1. Open the ``` MQTT Explorer ```. Then, click the Connections: ``` test.mosquitto.org ```.<br>
+1. Open the ``` MQTT Explorer ```. Then, click the Connections: ``` test.mosquitto.org ```.<br><br>
 
-2. Click the ``` ADVANCED ``` -> ``` Delete All Topics ```.<br>
+2. Click the ``` ADVANCED ``` -> ``` Delete All Topics ```.<br><br>
 
 3. Create a ``` new Topic ``` with QoS "0":
 
@@ -190,7 +199,7 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 
    </td></tr></table><br>
 
-4. Copy and paste the ``` Client ID ``` into the ``` Arduino IDE ``` project.<br>
+4. Copy and paste the ``` Client ID ``` into the ``` Arduino IDE ``` project.<br><br>
 
 5. Next, click: ``` BACK ```. The last step, please click: ``` CONNECT ```.
 
@@ -249,9 +258,13 @@ When an object is in the sensor detection area, the sensor will respond by sendi
 <br><br>
 
 ## Reminder
+<table><tr><td width="840">
+   
 1. Before starting the project, you should test the components first to make sure the devices used can work properly. This has been provided by the creator of the program, please download and try one section at a time.
    
 2. The use of serial communication between Arduino IDE and Processing cannot be run simultaneously, so if you want to open the Processing GUI then at the same time you cannot open the Serial Monitor Arduino IDE. It also applies to the other way around.
+
+</td></tr></table>
 
 <br><br>
 
