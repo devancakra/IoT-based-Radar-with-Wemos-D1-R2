@@ -98,7 +98,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <br><br>
 
 ## Pengaturan Arduino IDE
-1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek Wemos D1 R2 Radar dengan cara klik ``` File ``` -> ``` Open ``` : 
+1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek ini dengan cara klik ``` File ``` -> ``` Open ``` : 
 
    <table><tr><td width="810">
    
