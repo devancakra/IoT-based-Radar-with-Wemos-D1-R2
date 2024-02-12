@@ -13,47 +13,60 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 | Bagian | Deskripsi |
 | --- | --- |
 | Papan Pengembangan | Wemos D1 R2 |
-| Editor Kode | Arduino IDE & Processing |
+| Editor Kode | • Arduino IDE<br>• Processing |
 | Driver | USB-Serial CH340 |
 | Platform IoT | mosquitto |
 | Peralatan IoT | MQTT Explorer |
 | Protokol IoT | MQTT |
 | Arsitektur IoT | 3 Lapisan |
-| Bahasa Pemrograman | C/C++ dan Python |
-| Pustaka Arduino | ESP8266WiFi, Servo, PubSubClient, ArduinoJson |
+| Bahasa Pemrograman | • C/C++<br>• Python |
+| Pustaka Arduino | • ESP8266WiFi<br>• Servo<br>• PubSubClient<br>• ArduinoJson |
 | Aktuator | Motor Servo SG90 180° (x1) |
 | Sensor | HC-SR04: Sensor Ultrasonik (x1) |
-| Komponen Lainnya | Kabel Mikro USB - USB tipe A (x1), Kabel jumper (1 set), Sekrup (1 set), dan Braket Pemasangan HC-SR04 (x1) |
+| Komponen Lainnya | • Kabel Mikro USB - USB tipe A (x1)<br>• Kabel jumper (1 set)<br>• Sekrup (1 set)<br>• Braket Pemasangan HC-SR04 (x1) |
 
 <br><br>
 
 ## Unduh & Instal
 1. Arduino IDE
+
+   <table><tr><td width="810">
    
    ```
    https://www.arduino.cc/en/software
    ```
-   <br>
+
+   </td></tr></table><br>
    
 2. Processing
+
+   <table><tr><td width="810">
    
    ```
    https://processing.org/download
    ```
-   <br>
+
+   </td></tr></table><br>
 
 3. MQTT Explorer
+
+   <table><tr><td width="810">
    
    ```
    https://mqtt-explorer.com/
    ```
-   <br>
+
+   </td></tr></table><br>
    
 4. USB-Serial CH340
+
+   <table><tr><td width="810">
 
    ```
    https://bit.ly/CH340_Driver
    ```
+
+   </td></tr></table>
    
 <br><br>
 
@@ -85,30 +98,66 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 <br><br>
 
 ## Pengaturan Arduino IDE
-1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek Wemos D1 R2 Radar dengan cara klik: ``` File ``` -> ``` Open ``` -> ``` wemos_d1r2_radar.ino ```.<br><br>
-   
-2. Isi ``` Url Pengelola Papan Tambahan ``` di Arduino IDE<br><br>
-   • Cara: klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut:
-   
-   ```
-   http://arduino.esp8266.com/stable/package_esp8266com_index.json
-   ```
-   
-3. ``` Pengaturan Board ``` di Arduino IDE<br><br>
-   • Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```. Kemudian pilih Board dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
-   <br><br>
-   
-4. ``` Ubah Kecepatan Papan ``` di Arduino IDE<br><br>
-   • Cara: klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.
-   <br><br>
-   
-5. ``` Instal Pustaka ``` di Arduino IDE<br><br>
-   • Cara: unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
-   <br><br>
+1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek Wemos D1 R2 Radar dengan cara klik ``` File ``` -> ``` Open ``` : 
 
-6. ``` Pengaturan Port ``` di Arduino IDE<br><br>
-   • Cara: klik ``` Port ``` -> Pilih sesuai dengan port perangkat Anda ``` (Anda dapat melihatnya di Device Manager) ```.
-   <br><br>
+   <table><tr><td width="810">
+   
+      ``` wemos_d1r2_radar.ino ```.
+
+   </td></tr></table><br>
+   
+2. Isi ``` Url Pengelola Papan Tambahan ``` di Arduino IDE
+
+   <table><tr><td width="810">
+   
+      Klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut:
+      
+      ```
+      http://arduino.esp8266.com/stable/package_esp8266com_index.json
+      ```
+
+   </td></tr></table><br>
+   
+3. ``` Pengaturan Board ``` di Arduino IDE
+
+   <table>
+      <tr><th width="810">
+
+      Cara mengatur board ``` WEMOS D1 R2 ```
+            
+      </th></tr>
+      <tr><td>
+      
+      • Klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```. 
+      
+      • Kemudian klik ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Board ``` -> ``` LOLIN(WEMOS) D1 R2 & mini ```.
+
+      </td></tr>
+   </table><br>
+   
+4. ``` Ubah Kecepatan Papan ``` di Arduino IDE
+
+   <table><tr><td width="810">
+   
+      Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
+
+   </td></tr></table><br>
+   
+5. ``` Instal Pustaka ``` di Arduino IDE
+
+   <table><tr><td width="810">
+   
+      Unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+
+   </td></tr></table><br>
+
+6. ``` Pengaturan Port ``` di Arduino IDE
+
+   <table><tr><td width="810">
+   
+      Klik ``` Port ``` -> Pilih sesuai dengan port perangkat anda ``` (anda dapat melihatnya di Device Manager) ```
+
+   </td></tr></table><br>
 
 7. Ubah ``` Nama WiFi ```, ``` Kata Sandi WiFi ```, dan ``` ID Klien ``` sesuai dengan yang Anda gunakan saat ini.<br><br>
 
@@ -116,7 +165,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 
 9. Jika tidak ada kesalahan dalam kode program, silakan klik: ``` Upload ```.<br><br>
 
-10. Jika saat unggah program masih terdapat masalah, maka coba periksa pada bagian ``` driver ``` / ``` port ``` / ``` yang lainnya ```.
+10. Jika masih ada masalah saat unggah program, maka coba periksa pada bagian ``` driver ``` / ``` port ``` / ``` yang lainnya ```.
 
 <br><br>
 
