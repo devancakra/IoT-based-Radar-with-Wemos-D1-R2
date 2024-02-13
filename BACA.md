@@ -19,7 +19,7 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 | Protokol Komunikasi | Message Queuing Telemetry Transport (MQTT) |
 | Arsitektur IoT | 3 Lapisan |
 | Dukungan Aplikasi | MQTT Explorer |
-| Bahasa Pemrograman | • C/C++<br>• Python |
+| Bahasa Pemrograman | • C/C++<br>• Processing |
 | Pustaka Arduino | • ESP8266WiFi<br>• Servo<br>• PubSubClient<br>• ArduinoJson |
 | Aktuator | Motor Servo SG90 180° (x1) |
 | Sensor | HC-SR04: Sensor Ultrasonik (x1) |
