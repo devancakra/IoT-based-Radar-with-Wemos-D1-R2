@@ -16,9 +16,9 @@ This project is closely related to defense technology, where this tool is used t
 | Code Editor | • Arduino IDE<br>• Processing |
 | Driver | USB-Serial CH340 |
 | IoT Platform | mosquitto |
-| IoT Appliances | MQTT Explorer |
 | Communications Protocol | Message Queuing Telemetry Transport (MQTT) |
 | IoT Architecture | 3 Layer |
+| Application Support | MQTT Explorer |
 | Programming Language | • C/C++<br>• Processing |
 | Arduino Library | • ESP8266WiFi<br>• Servo<br>• PubSubClient<br>• ArduinoJson |
 | Actuators | Servo Motor SG90 180° (x1) |
