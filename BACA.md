@@ -178,7 +178,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 
    </td></tr></table><br>
 
-2. Sesuaikan ``` port ``` Anda dengan yang ada di ``` Arduino IDE ```. Hal ini dilakukan agar board dapat dikenali oleh ``` Processing ```, sehingga kode dapat dijalankan dengan benar.<br><br>
+2. Sesuaikan ``` port ``` anda dengan yang ada di ``` Arduino IDE ```. Hal ini dilakukan agar board dapat dikenali oleh ``` Processing ```, sehingga kode dapat dijalankan dengan benar.<br><br>
 
 3. Langkah terakhir, silakan klik: ``` Run ```.
 
