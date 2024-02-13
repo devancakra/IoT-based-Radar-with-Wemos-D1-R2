@@ -17,7 +17,7 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 | Driver | USB-Serial CH340 |
 | Platform IoT | mosquitto |
 | Peralatan IoT | MQTT Explorer |
-| Protokol IoT | MQTT |
+| Protokol Komunikasi | Message Queuing Telemetry Transport (MQTT) |
 | Arsitektur IoT | 3 Lapisan |
 | Bahasa Pemrograman | • C/C++<br>• Python |
 | Pustaka Arduino | • ESP8266WiFi<br>• Servo<br>• PubSubClient<br>• ArduinoJson |
@@ -110,7 +110,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 
    <table><tr><td width="810">
    
-      Klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut:
+      Klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut :
       
       ```
       http://arduino.esp8266.com/stable/package_esp8266com_index.json
