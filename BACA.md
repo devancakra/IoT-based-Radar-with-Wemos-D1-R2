@@ -16,9 +16,9 @@ Proyek ini sangat erat kaitannya dengan teknologi pertahanan, dimana alat ini di
 | Editor Kode | • Arduino IDE<br>• Processing |
 | Driver | USB-Serial CH340 |
 | Platform IoT | mosquitto |
-| Peralatan IoT | MQTT Explorer |
 | Protokol Komunikasi | Message Queuing Telemetry Transport (MQTT) |
 | Arsitektur IoT | 3 Lapisan |
+| Dukungan Aplikasi | MQTT Explorer |
 | Bahasa Pemrograman | • C/C++<br>• Python |
 | Pustaka Arduino | • ESP8266WiFi<br>• Servo<br>• PubSubClient<br>• ArduinoJson |
 | Aktuator | Motor Servo SG90 180° (x1) |
