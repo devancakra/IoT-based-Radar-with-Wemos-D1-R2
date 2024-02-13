@@ -159,7 +159,7 @@ Ketika sebuah objek berada di area deteksi sensor, maka sensor akan merespon den
 
    </td></tr></table><br>
 
-7. Ubah ``` Nama WiFi ```, ``` Kata Sandi WiFi ```, dan ``` ID Klien ``` sesuai dengan yang Anda gunakan saat ini.<br><br>
+7. Ubah ``` Nama WiFi ```, ``` Kata Sandi WiFi ```, dan ``` ID Klien ``` sesuai dengan yang anda gunakan saat ini.<br><br>
 
 8. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
 
