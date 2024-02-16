@@ -20,7 +20,7 @@ This project is closely related to defense technology, where this tool is used t
 | IoT Architecture | 3 Layer |
 | Application Support | MQTT Explorer |
 | Programming Language | • C/C++<br>• Processing |
-| Arduino Library | • ESP8266WiFi<br>• Servo<br>• PubSubClient<br>• ArduinoJson |
+| Arduino Library | • ESP8266WiFi (default)<br>• PubSubClient<br>• ArduinoJson<br>• Servo |
 | Actuators | Servo Motor SG90 180° (x1) |
 | Sensor | HC-SR04: Ultrasonic Sensor (x1) |
 | Other Components | • Micro USB cable - USB type A (x1)<br>• Jumper cable (1 set)<br>• Screws (1 set)<br>• HC-SR04 Mounting Bracket (x1) |
