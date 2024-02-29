@@ -5,7 +5,7 @@
 
 # IoT-based-Radar-with-Wemos-D1-R2
 <strong>Tugas Akhir UCI Coursera 2023</strong><br><br>
-Radar ini sangat erat kaitannya dengan teknologi pertahanan, yang mana alat ini digunakan untuk menentukan posisi, bentuk, dan arah pergerakan dari suatu objek yang terdeteksi. Tujuan diadakannya proyek ini adalah untuk mempelajari cara kerja dari sebuah radar dengan sensor Ultrasonik. Proyek ini telah dilaksanakan dan memakan waktu kurang lebih 1 hari. Sistem radar ini berbasis Internet of Things, sehingga menggunakan MQTT sebagai protokol komunikasinya. Antarmuka sistem dapat diakses secara bergantian melalui Serial Monitor ataupun Processing. Manfaat dari pembuatan proyek ini tidak lain adalah untuk menambah pengalaman. Hasil penelitian menunjukkan bahwa sistem yang dibuat ini dapat berfungsi dengan baik.
+Radar ini sangat erat kaitannya dengan teknologi pertahanan, yang mana alat ini dapat berfungsi sebagai penentu posisi, bentuk, dan arah pergerakan dari suatu objek yang terdeteksi. Tujuan diadakannya proyek ini adalah untuk mempelajari cara kerja dari sebuah radar dengan sensor Ultrasonik. Proyek ini telah dilaksanakan dan memakan waktu kurang lebih 1 hari. Sistem radar ini berbasis Internet of Things, sehingga menggunakan MQTT sebagai protokol komunikasinya. Antarmuka sistem dapat diakses secara bergantian melalui Serial Monitor ataupun Processing. Manfaat dari pembuatan proyek ini tidak lain adalah untuk menambah pengalaman. Hasil penelitian menunjukkan bahwa sistem yang dibuat ini dapat berfungsi dengan baik.
 
 <br><br>
 
