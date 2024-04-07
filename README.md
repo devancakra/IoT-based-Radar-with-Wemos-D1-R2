@@ -14,7 +14,7 @@ This radar is closely related to defense technology, where this tool can functio
 | --- | --- |
 | Development Board | Wemos D1 R2 |
 | Code Editor | • Arduino IDE<br>• Processing |
-| Driver | USB-Serial CH340 |
+| Driver | CH340 USB Driver |
 | IoT Platform | mosquitto |
 | Communications Protocol | Message Queuing Telemetry Transport (MQTT) |
 | IoT Architecture | 3 Layer |
@@ -33,7 +33,7 @@ This radar is closely related to defense technology, where this tool can functio
    <table><tr><td width="810">
    
    ```
-   https://www.arduino.cc/en/software
+   https://bit.ly/ArduinoIDE_Installer
    ```
 
    </td></tr></table><br>
@@ -43,7 +43,7 @@ This radar is closely related to defense technology, where this tool can functio
    <table><tr><td width="810">
    
    ```
-   https://processing.org/download
+   https://bit.ly/Processing_Installer
    ```
 
    </td></tr></table><br>
@@ -53,17 +53,17 @@ This radar is closely related to defense technology, where this tool can functio
    <table><tr><td width="810">
    
    ```
-   https://mqtt-explorer.com/
+   https://bit.ly/MQTT_Explorer_Installer
    ```
 
    </td></tr></table><br>
    
-4. USB-Serial CH340
+4. CH340 USB Driver
 
    <table><tr><td width="810">
 
    ```
-   https://bit.ly/CH340_Driver
+   https://bit.ly/CH340_USB_Driver
    ```
 
    </td></tr></table>
